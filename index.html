@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <div id="headline-sec">
+        <h1>Metric/Imperial Unit Conversion</h1>
+        <div>
+            <input type="number" id="input-el" placeholder="0">
+        </div>
+        <div>
+            <button id="input-btn">Convert</button>
+        </div>
+    </div>
+    <div id="convert-sec">
+        <div class="units" id="unit1">
+            <h3>Length (Meter/Feet)</h3>
+            <h5 id="meter">1 meter = 3.281 foot | 1 foot = 0.305 meter</h5>
+        </div>
+        <div class="units" id="unit2">
+            <h3>Volume (Liters/Gallons)</h3>
+            <h5 id="volume">1 liter = 0.264 gallon | 1 gallon = 3.785 liter</h5>
+        </div>
+        <div class="units" id="unit3">
+            <h3>Mass (Kilograms/Pounds)</h3>
+            <h5 id="mass">1 kilogram = 2.204 pound | 1 pound = 0.453 kilogram</h5>
+        </div>
+    </div>
+    <div id="saved-el">
+        <h3>Previous Calculations</h3>
+        <p id="previous-txt-m" class="prev-txt"></p>
+        <p id="previous-txt-l" class="prev-txt"></p>
+        <p id="previous-txt-k" class="prev-txt"></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+<footer>
+
+</footer>
+</html>
